@@ -1,0 +1,212 @@
+[
+  {
+    "date": "2025-01-05",
+    "title": "Cómo la IA Está Redefiniendo el Rol del Site Reliability Engineer",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-01-22",
+    "title": "De Incidentes a Inteligencia: SREs y el Futuro Automatizado",
+    "description": "Explora el impacto de la inteligencia artificial en el rol del SRE.",
+    "tags": ["IA", "SRE", "DevOps"]
+  },
+  {
+    "date": "2025-02-08",
+    "title": "¿Puede un Modelo de IA Ser tu Próximo Ingeniero de Guardia?",
+    "description": "Explora el impacto de la inteligencia artificial en el rol del SRE.",
+    "tags": ["IA", "SRE", "DevOps"]
+  },
+  {
+    "date": "2025-02-08",
+    "title": "Observabilidad 2.0: Integrando IA para un Análisis Proactivo",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-03-08",
+    "title": "La IA Como Copiloto en el Manejo de Incidentes Críticos",
+    "description": "Descubre cómo la IA está transformando la operación en producción.",
+    "tags": ["IA", "Producción", "Automatización"]
+  },
+  {
+    "date": "2025-03-11",
+    "title": "Infraestructura Autónoma: ¿Utopía o el Siguiente Paso?",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-03-24",
+    "title": "Cuando los Logs Hablan: IA para Detección de Patrones Anómalos",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-04-08",
+    "title": "Más Allá del Dashboard: IA y Análisis Predictivo en Producción",
+    "description": "Descubre cómo la IA está transformando la operación en producción.",
+    "tags": ["IA", "Producción", "Automatización"]
+  },
+  {
+    "date": "2025-04-10",
+    "title": "Cómo Entrenar una IA para Entender tu Plataforma",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-04-20",
+    "title": "El Futuro del Runbook es Conversacional: ChatOps y LLMs",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-05-04",
+    "title": "Deepfakes en Infraestructura: Riesgos Emergentes con IA",
+    "description": "Analiza los nuevos desafíos de seguridad al integrar IA en sistemas.",
+    "tags": ["IA", "Seguridad", "Riesgos"]
+  },
+  {
+    "date": "2025-05-30",
+    "title": "¿Qué Tan Segura es tu IA? Modelos vs. Amenazas Reales",
+    "description": "Analiza los nuevos desafíos de seguridad al integrar IA en sistemas.",
+    "tags": ["IA", "Seguridad", "Riesgos"]
+  },
+  {
+    "date": "2025-05-31",
+    "title": "Shadow AI: El Nuevo Riesgo Silencioso en tu Organización",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-06-20",
+    "title": "¿Puede una IA Filtrar tus Secretos? Amenazas Inesperadas",
+    "description": "Analiza los nuevos desafíos de seguridad al integrar IA en sistemas.",
+    "tags": ["IA", "Seguridad", "Riesgos"]
+  },
+  {
+    "date": "2025-06-25",
+    "title": "Inteligencia Artificial, Compliance y el Dilema del Control",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-06-25",
+    "title": "Red Teaming para Modelos de IA: Simulando Ataques con Máquinas",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-07-18",
+    "title": "IA al Servicio de la Inclusión Digital en Sistemas Complejos",
+    "description": "Investiga cómo la IA puede mejorar el acceso digital para todos.",
+    "tags": ["IA", "Accesibilidad", "Inclusión"]
+  },
+  {
+    "date": "2025-07-19",
+    "title": "Accesibilidad Asistida por IA: Más Allá de lo Básico",
+    "description": "Investiga cómo la IA puede mejorar el acceso digital para todos.",
+    "tags": ["IA", "Accesibilidad", "Inclusión"]
+  },
+  {
+    "date": "2025-07-22",
+    "title": "¿Quién Diseña la Accesibilidad? Rompiendo Sesgos en la IA",
+    "description": "Investiga cómo la IA puede mejorar el acceso digital para todos.",
+    "tags": ["IA", "Accesibilidad", "Inclusión"]
+  },
+  {
+    "date": "2025-08-03",
+    "title": "De la Teoría a la Práctica: Casos Reales de IA Mejorando Accesos",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-08-08",
+    "title": "La Promesa de la IA en SRE: ¿Estamos Listos?",
+    "description": "Explora el impacto de la inteligencia artificial en el rol del SRE.",
+    "tags": ["IA", "SRE", "DevOps"]
+  },
+  {
+    "date": "2025-08-27",
+    "title": "Automatización vs. Autonomía: ¿Quién Toma el Control?",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-08-29",
+    "title": "Cuando la IA Falla: Lecciones de Sistemas Mal Entrenados",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-09-27",
+    "title": "IA en Producción: ¿Genialidad o Riesgo Operativo?",
+    "description": "Descubre cómo la IA está transformando la operación en producción.",
+    "tags": ["IA", "Producción", "Automatización"]
+  },
+  {
+    "date": "2025-09-30",
+    "title": "La Humanidad Detrás del Código: Ética en la Automatización",
+    "description": "Reflexiona sobre el papel humano en la era de los sistemas inteligentes.",
+    "tags": ["IA", "Ética", "Reflexión"]
+  },
+  {
+    "date": "2025-10-07",
+    "title": "¿Estamos Construyendo Sistemas Inteligentes o Más Débiles?",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-10-18",
+    "title": "Inteligencia Artificial y Café: La Nueva Rutina del Ingeniero",
+    "description": "Explora el impacto de la inteligencia artificial en el rol del SRE.",
+    "tags": ["IA", "SRE", "DevOps"]
+  },
+  {
+    "date": "2025-10-19",
+    "title": "Debugging con IA: El Futuro ya No Usa Stack Overflow",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-11-02",
+    "title": "¿IA para Todo? Qué Automatizar y Qué No",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-11-17",
+    "title": "SRE en la Era de ChatGPT: Entre Bots y Burnout",
+    "description": "Explora el impacto de la inteligencia artificial en el rol del SRE.",
+    "tags": ["IA", "SRE", "DevOps"]
+  },
+  {
+    "date": "2025-12-07",
+    "title": "¿Pueden los Modelos LLM Predecir Caídas de Sistemas?",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-12-08",
+    "title": "Cómo la IA Está Cambiando la Cultura de Ingeniería",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-12-19",
+    "title": "El SRE del Futuro se Entrena con Datos, No con Pagers",
+    "description": "Explora el impacto de la inteligencia artificial en el rol del SRE.",
+    "tags": ["IA", "SRE", "DevOps"]
+  },
+  {
+    "date": "2025-12-20",
+    "title": "¿Confías en tu IA Más que en tu Compañero de Equipo?",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  },
+  {
+    "date": "2025-12-23",
+    "title": "De la Ciencia Ficción al CLI: Cómo la IA se Metió en el Shell",
+    "description": "Una mirada moderna a la interacción entre IA y sistemas tecnológicos.",
+    "tags": ["IA", "Tecnología", "Innovación"]
+  }
+]
