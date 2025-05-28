@@ -1,12 +1,14 @@
 import Markdown from "react-markdown";
-import * as posts from "../../../repository/posts";
+import { findOneBySlug } from "../../services/posts";
+import Layout from "../posts/layout";
 
-export async function getServerSideProps({ params }) {
+export const getServerSideProps = async ({ params }) => {
   const { slug } = params;
 
-  const post = await posts.findOneBySlug({ slug });
+  const post = await findOneBySlug({ slug: slug });
 
   if (!post) {
+    console.log("No se encontró el post ", slug);
     return {
       notFound: true,
     };
@@ -18,17 +20,16 @@ export async function getServerSideProps({ params }) {
         id: post._id.toString(),
         title: post.title,
         content: post.content,
-        slug: post.slug,
+        slug: slug,
         date: post.date,
         tags: post.tags,
         coverImage: post.coverImage,
         author: post.author,
         ogImage: post.ogImage,
-        content: post.content,
       },
     },
   };
-}
+};
 
 export default function Post({ post }) {
   return (
@@ -37,8 +38,10 @@ export default function Post({ post }) {
       <br />
       <br />
       <div>
-        <time dateTime={post.date}>{post.date}</time> by{" "}
-        <span>{post.author.name}</span>
+        <time dateTime={post.date}>
+          {new Date(post.date).toLocaleDateString("es-ES")}
+        </time>{" "}
+        by <span>{post.author.name}</span>
       </div>
       <Markdown>{post.content}</Markdown>
     </Layout>

@@ -11,7 +11,8 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const postData = getPostData(params.id);
+  const { slug } = params;
+  const postData = getPostData(slug);
   return {
     props: {
       post: postData,
@@ -20,15 +21,16 @@ export async function getStaticProps({ params }) {
 }
 
 export default function Post({ post }) {
-  console.log(post);
   return (
     <Layout title={post.title}>
       <h1>{post.title}</h1>
       <br />
       <br />
       <div>
-        <time dateTime={post.date}>{post.date}</time> by{" "}
-        <span>{post.author.name}</span>
+        <time dateTime={post.date}>
+          {new Date(post.date).toLocaleDateString("es-ES")}
+        </time>{" "}
+        by <span>{post.author.name}</span>
       </div>
       <Markdown>{post.content}</Markdown>
     </Layout>

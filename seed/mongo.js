@@ -1,19 +1,20 @@
 import {
   generateMarkdown,
   sanitizeFileName,
-} from "../lib/posts/utils/createMarkdown";
-import content from "../content.json";
+} from "../lib/posts/utils/createMarkdown.js";
+import content from "../content.json" with { type: "json" };
 import { MongoClient } from "mongodb";
+import { DATABASE_NAME, POSTS_COLLECTION_NAME } from "../utils/constants.js";
 
 async function createPosts(posts) {
-  const client = new MongoClient(uri);
+  const client = new MongoClient(process.env.MONGODB_URI);
 
   try {
     await client.connect();
     console.log("Conectado a MongoDB");
 
-    const db = client.db(dbName);
-    const collection = db.collection(collectionName);
+    const db = client.db(DATABASE_NAME);
+    const collection = db.collection(POSTS_COLLECTION_NAME);
 
     // Insertar los posts en la colección
     const result = await collection.insertMany(posts);

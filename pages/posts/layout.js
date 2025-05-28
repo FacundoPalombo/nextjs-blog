@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import styles from "../../components/layout.module.css";
+import { getRandomPostUrl } from "../../lib/posts/utils/constants";
 
 const Layout = ({ children, title = "Blog", nextPost }) => {
   return (
@@ -18,6 +19,9 @@ const Layout = ({ children, title = "Blog", nextPost }) => {
             </li>
             <li>
               <Link href={nextPost ? `/${nextPost}` : "/"}>Next post</Link>
+            </li>
+            <li>
+              <Link href={`/ssrPosts/${getRandomPostUrl()}`}>Surprise me</Link>
             </li>
           </ul>
         </nav>
